@@ -17,13 +17,13 @@ To complete this lab, follow each of the steps below.
 3. Import the data set from your computer into Tableau.
 4. Create new worksheets with tabular views for each of the following metrics:
     
-    a. You want a quick view of the current situation of confirmed cases, but only for top countries.  After playing with the country filter you've found that countries with more than 50,000 confirmed cases comprise the top 8.  Now you can use this filter to make a histogram with total confirmed cases(rows) for countries with more than 50,000 cases (columns) with color showing total deaths.
+    a. You want a quick view of the current situation of confirmed cases, but only for top countries.  After playing with the country filter you've found that countries with more than 50,000 confirmed cases comprise the top 9.  Now you can use this filter to make a histogram with total confirmed cases(rows) for countries with more than 50,000 cases (columns) with color showing total deaths.
     
     b. Now that you have an overview, you want a bit more information on all countries that have at least 10,000 confirmed cases.  So you plot confirmed cases (bubble size), total deaths (bubble color) and median age in a Packed Bubble Chart with labels for each country with greater than 50,000 cases.
     
     c. You still don't know about the confirmed cases and death count in relation to the recovered case count.  So, you create a histogram with countries and 3 side-by-side measures including total confirmed cases, total deaths, total recovered (columns) and those measured values on the y-axis.
     
-    d. The absolute numbers do not tell you how the number of confirmed cases have accumulated over time.  For this you create a line plot for all countries (color) with greater than 50,000 cases with "Days Since First Case" on the x-axis and accumulated confirmed cases on the y-axis.  Include an animation to plot the data day by day.
+    d. The absolute numbers do not tell you how the number of confirmed cases have accumulated over time.  For this you create a line plot for all countries (color) with greater than 50,000 cases with "Days Since First 100 Cases" on the x-axis and accumulated confirmed cases on the y-axis.  Include an animation to plot the data day by day.
     
     e. Now you can look at the other measures over time using a lineplot with cumulative measures including total confirmed, total deaths and total recovered (rows) each day (columns).
     
